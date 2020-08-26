@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <node pkg="motion_plan" type="follow_wall.py" name="wall_follower" />
+    <node pkg="motion_plan" type="go_to_point.py" name="go_to_point" />
+    <node pkg="motion_plan" type="bug2.py" name="bug2" output="screen" />
+</launch>
