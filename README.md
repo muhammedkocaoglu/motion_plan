@@ -1,6 +1,7 @@
 # motion_plan
 Motion planning by using Bug2 algorithm
 
+Add the package to your workspace. Then execute the following commands in 2 terminals:
 $ roslaunch motion_plan simple.world   
 $ roslaunch motion_plan bug2.launch
 
